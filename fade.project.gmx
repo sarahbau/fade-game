@@ -37,9 +37,9 @@
     <object>objects\obj_key</object>
     <object>objects\obj_exit</object>
     <object>objects\obj_entrance</object>
+    <object>objects\obj_torch</object>
     <object>objects\obj_obstruction</object>
     <object>objects\obj_sounds</object>
-    <object>objects\obj_torch</object>
     <object>objects\obj_timer</object>
   </objects>
   <rooms name="rooms">

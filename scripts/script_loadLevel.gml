@@ -3,6 +3,7 @@
     if(level_id>MAXLEVEL){level_id=1;}
     with(obj_entrance){instance_destroy()};
     with(obj_torch){instance_destroy();};
+    with(obj_key){instance_destroy();};
     instance_create(0,0, obj_key);
     instance_create(0,0, obj_torch);
     var inst_ent = instance_create(0, 704, obj_entrance);
@@ -10,10 +11,8 @@
     
     switch(level_id) {
         case 1:
-            with(obj_player) {
-                x=416;
-                y=32;
-            }
+            obj_player.x = 416;
+            obj_player.y = 32;
             obj_maze.sprite_index = spr_maze_1;
             with(inst_ent) {
                 x=384;
@@ -27,10 +26,8 @@
             }
             break;
         case 2:
-            with(obj_player) {
-                x=32;
-                y=736;
-            }
+            obj_player.x = 32;
+            obj_player.y = 736;
             obj_maze.sprite_index = spr_maze_2;
             with(inst_ent) {
                 x=0;
@@ -44,10 +41,8 @@
             }
             break;
         case 3:
-            with(obj_player) {
-                x=32;
-                y=96;
-            }
+            obj_player.x = 32;
+            obj_player.y = 96;
             obj_maze.sprite_index = spr_maze_3;
             with(inst_ent) {
                 x=0;
@@ -61,10 +56,8 @@
             }
             break;
         default:
-            with(obj_player) {
-                x=416;
-                y=32;
-            }
+            obj_player.x = 416;
+            obj_player.y = 32;
             obj_maze.sprite_index = spr_maze_1;
             with(inst_ent) {
                 x=384;
@@ -77,5 +70,4 @@
                 sprite_index = spr_door_v;
             }
     }
-    level_id++;
 }
