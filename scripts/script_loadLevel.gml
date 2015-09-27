@@ -4,6 +4,7 @@
     with(obj_entrance){instance_destroy()};
     with(obj_torch){instance_destroy();};
     with(obj_key){instance_destroy();};
+    with(obj_arrow){instance_destroy();};
     instance_create(0,0, obj_key);
     instance_create(0,0, obj_torch);
     var inst_ent = instance_create(0, 704, obj_entrance);

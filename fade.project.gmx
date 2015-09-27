@@ -23,6 +23,7 @@
     <sprite>sprites\spr_player_up</sprite>
     <sprite>sprites\spr_torch_empty</sprite>
     <sprite>sprites\spr_torch_full</sprite>
+    <sprite>sprites\spr_arrow</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -41,6 +42,7 @@
     <object>objects\obj_obstruction</object>
     <object>objects\obj_sounds</object>
     <object>objects\obj_timer</object>
+    <object>objects\obj_arrow</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
