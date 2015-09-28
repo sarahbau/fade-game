@@ -1,6 +1,7 @@
 {
     MAXLEVEL = 3;
     if(level_id>MAXLEVEL){level_id=1;}
+    show_message("Should load level [" + string(level_id) + "]");
     with(obj_entrance){instance_destroy()};
     with(obj_torch){instance_destroy();};
     with(obj_key){instance_destroy();};
@@ -12,6 +13,7 @@
     
     switch(level_id) {
         case 1:
+            show_message("On level 1");
             obj_player.x = 416;
             obj_player.y = 32;
             obj_maze.sprite_index = spr_maze_1;
@@ -27,6 +29,7 @@
             }
             break;
         case 2:
+            show_message("On level 2");
             obj_player.x = 32;
             obj_player.y = 736;
             obj_maze.sprite_index = spr_maze_2;
@@ -42,6 +45,7 @@
             }
             break;
         case 3:
+            show_message("On level 3");
             obj_player.x = 32;
             obj_player.y = 96;
             obj_maze.sprite_index = spr_maze_3;
@@ -57,6 +61,7 @@
             }
             break;
         default:
+            show_message("On level default");
             obj_player.x = 416;
             obj_player.y = 32;
             obj_maze.sprite_index = spr_maze_1;
@@ -71,4 +76,5 @@
                 sprite_index = spr_door_v;
             }
     }
+    obj_player.ranOutsideRoom = 0;
 }
