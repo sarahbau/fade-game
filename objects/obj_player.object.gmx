@@ -503,7 +503,7 @@ image_speed = player_speed/20;
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="9" enumb="69">
+    <event eventtype="10" enumb="69">
       <action>
         <libid>1</libid>
         <id>109</id>
