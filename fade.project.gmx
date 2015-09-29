@@ -5,7 +5,6 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\mus_desolation</sound>
     <sound>sound\amb_forgotten_tombs</sound>
     <sound>sound\snd_Iseeyou</sound>
   </sounds>
