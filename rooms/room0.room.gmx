@@ -55,6 +55,7 @@
     <instance objName="obj_sounds" x="32" y="32" name="inst_A6DFAD36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_timer" x="96" y="32" name="inst_FFF6B4CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="416" y="64" name="inst_38ECACCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fog" x="96" y="96" name="inst_DD5CF0A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

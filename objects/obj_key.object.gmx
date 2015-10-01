@@ -27,6 +27,8 @@
             <kind>1</kind>
             <string>image_xscale=.125
 image_yscale=.125
+
+depth = 100;
 </string>
           </argument>
         </arguments>

@@ -82,6 +82,39 @@
           <argument>
             <kind>1</kind>
             <string>image_speed=.25
+
+torchLightSize = 3;
+torchLightStrength = 1;
+updateTLight = 0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (updateTLight == 0) {
+    torchLightSize = torchLightSize + 0.05;
+    if (torchLightSize &gt;= 4) updateTLight = 1;
+} else {
+    torchLightSize = torchLightSize - 0.05;
+    if (torchLightSize &lt;= 3) updateTLight = 0;
+}
 </string>
           </argument>
         </arguments>
