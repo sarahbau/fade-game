@@ -311,6 +311,27 @@
     <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string> draw_set_color(c_white);
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>514</id>
         <kind>0</kind>
         <userelative>-1</userelative>
@@ -493,45 +514,41 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>601</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>// Static config variables
-sprite = spr_torch_full;
-subimg = 1;
-imagescale = 0.25
-x = view_wview + 150;
-y = 50;
-
-// The rest are dynamic
-scale = 1.0 - global.fade_counter / global.fade_max_timer;
-width = sprite_get_width(sprite);
-left = width * scale;
-xmod = x + left * imagescale;
-
-height = sprite_get_height(sprite);
-top = 0;
-colour = c_white;
-alpha = 1;
-
-draw_sprite_part_ext(sprite, subimg, left, top, width, height, xmod, y, imagescale, imagescale, colour, alpha);
-
-sprite = spr_torch_empty;
-left = 0;
-
-draw_sprite_part_ext(sprite, subimg, left, top, width, height, x, y, imagescale, imagescale, colour, alpha);
-</string>
+            <kind>9</kind>
+            <script>script_torch_health_bar</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>
