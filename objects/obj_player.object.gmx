@@ -105,7 +105,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>playerLightSize = 7;
+            <string>playerLightSizeMAX = 18;
+playerLightFluc = 0;
+playerLightSize = 1;
 playerLightStrength = 1;
 
 updatePlayerTLight = 0;
@@ -133,12 +135,14 @@ updatePlayerTLight = 0;
           <argument>
             <kind>1</kind>
             <string>if (updatePlayerTLight == 0) {
-    playerLightSize = playerLightSize + 0.05;
-    if (playerLightSize &gt;= 8) updatePlayerTLight = 1;
+    playerLightFluc = playerLightFluc + 0.1;
+    if (playerLightFluc &gt;= 1) updatePlayerTLight = 1;
 } else {
-    playerLightSize = playerLightSize - 0.05;
-    if (playerLightSize &lt;= 6) updatePlayerTLight = 0;
+    playerLightFluc = playerLightFluc - 0.1;
+    if (playerLightFluc &lt;= -1) updatePlayerTLight = 0;
 }
+fraction = (global.fade_counter / global.fade_max_timer);
+playerLightSize = fraction * playerLightSizeMAX + playerLightFluc;
 </string>
           </argument>
         </arguments>
