@@ -85,7 +85,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>fire</sound>
+            <sound>snd_fire</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -148,7 +148,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>fire</sound>
+            <sound>snd_fire</sound>
           </argument>
         </arguments>
       </action>
