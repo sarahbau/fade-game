@@ -70,6 +70,7 @@
     <object>objects\obj_maze</object>
     <object>objects\obj_key</object>
     <object>objects\obj_exit</object>
+    <object>objects\obj_exit_btn</object>
     <object>objects\obj_entrance</object>
     <object>objects\obj_torch</object>
     <object>objects\obj_obstruction</object>
@@ -78,6 +79,9 @@
     <object>objects\obj_arrow</object>
     <object>objects\obj_fog</object>
     <object>objects\obj_menu_vid</object>
+    <object>objects\obj_start_btn</object>
+    <object>objects\obj_retry_btn</object>
+    <object>objects\obj_dead_zoey</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\main_menu</room>
