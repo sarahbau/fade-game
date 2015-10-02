@@ -139,12 +139,13 @@ flucValue = 0.1;
 if (fraction &lt; 20/180) fraction = 20/180;
 if (updatePlayerTLight == 0) {
     playerLightFluc = playerLightFluc + flucValue*fraction;
-    if (playerLightFluc &gt;= fraction*2) updatePlayerTLight = 1;
+    if (playerLightFluc &gt;= fraction/2) updatePlayerTLight = 1;
 } else {
     playerLightFluc = playerLightFluc -  flucValue*fraction;
-    if (playerLightFluc &lt;= fraction*(-2)) updatePlayerTLight = 0;
+    if (playerLightFluc &lt;= fraction/(-2)) updatePlayerTLight = 0;
 }
 playerLightSize = fraction * playerLightSizeMAX + playerLightFluc;
+playerLightSize = sqrt(playerLightSize)*2;
 </string>
           </argument>
         </arguments>

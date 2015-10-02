@@ -28,6 +28,8 @@
             <string>image_speed = 0;
 globalvar level_id;
 level_id = 1;
+background_xscale[1] = .25;
+background_yscale[1] = .25;
 </string>
           </argument>
         </arguments>
