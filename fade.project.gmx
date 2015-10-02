@@ -86,6 +86,7 @@
   <rooms name="rooms">
     <room>rooms\main_menu</room>
     <room>rooms\room0</room>
+    <room>rooms\room2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
