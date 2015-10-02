@@ -54,7 +54,6 @@
     <object>objects\obj_fog</object>
     <object>objects\obj_menu_vid</object>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\main_menu</room>
     <room>rooms\room0</room>
