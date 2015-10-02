@@ -30,6 +30,18 @@
     <sprite>sprites\spr_arrow</sprite>
     <sprite>sprites\spr_light</sprite>
     <sprite>sprites\spr_main</sprite>
+    <sprite>sprites\spr_underline_unp</sprite>
+    <sprite>sprites\spr_underline_prsd</sprite>
+    <sprite>sprites\spr_start_uprsd</sprite>
+    <sprite>sprites\spr_start_prsd</sprite>
+    <sprite>sprites\spr_retry_uprsd</sprite>
+    <sprite>sprites\spr_retry_prsd</sprite>
+    <sprite>sprites\spr_exit_uprsd</sprite>
+    <sprite>sprites\spr_exit_prsd</sprite>
+    <sprite>sprites\spr_dead1_light</sprite>
+    <sprite>sprites\spr_dead1_nolight</sprite>
+    <sprite>sprites\spr_dead2_light</sprite>
+    <sprite>sprites\spr_dead2_nolight</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
