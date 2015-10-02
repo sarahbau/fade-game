@@ -1,4 +1,5 @@
 {
+    randomize();
     MAXLEVEL = 3;
     if(level_id>MAXLEVEL){level_id=1;}
 //    show_message("Should load level [" + string(level_id) + "]");
