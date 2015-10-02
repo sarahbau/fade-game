@@ -121,7 +121,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>played_i_see_you</string>
+            <string>global.played_i_see_you</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -255,7 +255,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>played_i_see_you</string>
+            <string>global.played_i_see_you</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -321,7 +321,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>played_i_see_you</string>
+            <string>global.played_i_see_you</string>
           </argument>
           <argument>
             <kind>0</kind>
