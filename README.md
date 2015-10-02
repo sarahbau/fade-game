@@ -28,4 +28,5 @@ The goal of the game is to traverse the three levels of the maze and escape to t
 - All code is covered under the [MIT License](https://opensource.org/licenses/MIT)
 - "I see you" sound obtained from [Open Game Art](http://opengameart.org/content/i-see-you-voice) is in the public domain
 - "Forgotten Tomb" sound obtained from [Open Game Art](http://opengameart.org/content/forgoten-tomb-ambience) is in the public domain
+- "Foot walking step" sounds by Jute, obtained from [Open Game Art](http://opengameart.org/content/foot-walking-step-sounds-on-stone-water-snow-wood-and-dirt), released under [GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)
 - TODO
