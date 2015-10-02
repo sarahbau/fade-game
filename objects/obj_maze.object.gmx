@@ -26,8 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>image_speed = 0;
-globalvar level_id;
-level_id = 1;
 background_xscale[1] = .125;
 background_yscale[1] = .125;
 </string>
