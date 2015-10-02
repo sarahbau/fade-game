@@ -25,4 +25,7 @@ The goal of the game is to traverse the three levels of the maze and escape to t
 #### Resource Credits & Licenses
 
 - All artwork in this game is original.  Benny Xiong and Sarah Baucom reserve all rights.
+- All code is covered under the [MIT License](https://opensource.org/licenses/MIT)
+- "I see you" sound obtained from [Open Game Art](http://opengameart.org/content/i-see-you-voice) is in the public domain
+- "Forgotten Tomb" sound obtained from [Open Game Art](http://opengameart.org/content/forgoten-tomb-ambience) is in the public domain
 - TODO
