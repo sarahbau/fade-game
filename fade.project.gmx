@@ -14,34 +14,47 @@
     <sound>sound\snd_footsteps_4</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_maze_1</sprite>
-    <sprite>sprites\spr_maze_2</sprite>
-    <sprite>sprites\spr_maze_3</sprite>
-    <sprite>sprites\spr_key</sprite>
-    <sprite>sprites\spr_door_h</sprite>
-    <sprite>sprites\spr_door_v</sprite>
-    <sprite>sprites\spr_torch</sprite>
-    <sprite>sprites\spr_player_down</sprite>
-    <sprite>sprites\spr_player_left</sprite>
-    <sprite>sprites\spr_player_right</sprite>
-    <sprite>sprites\spr_player_up</sprite>
-    <sprite>sprites\spr_torch_empty</sprite>
-    <sprite>sprites\spr_torch_full</sprite>
-    <sprite>sprites\spr_arrow</sprite>
-    <sprite>sprites\spr_light</sprite>
-    <sprite>sprites\spr_main</sprite>
-    <sprite>sprites\spr_underline_unp</sprite>
-    <sprite>sprites\spr_underline_prsd</sprite>
-    <sprite>sprites\spr_start_uprsd</sprite>
-    <sprite>sprites\spr_start_prsd</sprite>
-    <sprite>sprites\spr_retry_uprsd</sprite>
-    <sprite>sprites\spr_retry_prsd</sprite>
-    <sprite>sprites\spr_exit_uprsd</sprite>
-    <sprite>sprites\spr_exit_prsd</sprite>
-    <sprite>sprites\spr_dead1_light</sprite>
-    <sprite>sprites\spr_dead1_nolight</sprite>
-    <sprite>sprites\spr_dead2_light</sprite>
-    <sprite>sprites\spr_dead2_nolight</sprite>
+    <sprites name="Mazes">
+      <sprite>sprites\spr_maze_1</sprite>
+      <sprite>sprites\spr_maze_2</sprite>
+      <sprite>sprites\spr_maze_3</sprite>
+      <sprite>sprites\spr_maze_4</sprite>
+      <sprite>sprites\spr_maze_5</sprite>
+      <sprite>sprites\spr_maze_6</sprite>
+    </sprites>
+    <sprites name="Player">
+      <sprite>sprites\spr_player_up</sprite>
+      <sprite>sprites\spr_player_right</sprite>
+      <sprite>sprites\spr_player_down</sprite>
+      <sprite>sprites\spr_player_left</sprite>
+      <sprite>sprites\spr_dead1_light</sprite>
+      <sprite>sprites\spr_dead1_nolight</sprite>
+      <sprite>sprites\spr_dead2_light</sprite>
+      <sprite>sprites\spr_dead2_nolight</sprite>
+    </sprites>
+    <sprites name="Objects">
+      <sprite>sprites\spr_door_h</sprite>
+      <sprite>sprites\spr_torch</sprite>
+      <sprite>sprites\spr_door_v</sprite>
+      <sprite>sprites\spr_key</sprite>
+    </sprites>
+    <sprites name="Menus">
+      <sprite>sprites\spr_start_uprsd</sprite>
+      <sprite>sprites\spr_start_prsd</sprite>
+      <sprite>sprites\spr_main</sprite>
+      <sprite>sprites\spr_underline_prsd</sprite>
+      <sprite>sprites\spr_underline_unp</sprite>
+      <sprite>sprites\spr_exit_prsd</sprite>
+      <sprite>sprites\spr_exit_uprsd</sprite>
+      <sprite>sprites\spr_retry_prsd</sprite>
+      <sprite>sprites\spr_retry_uprsd</sprite>
+    </sprites>
+    <sprites name="UI">
+      <sprite>sprites\spr_torch_empty</sprite>
+      <sprite>sprites\spr_arrow</sprite>
+      <sprite>sprites\spr_light</sprite>
+      <sprite>sprites\spr_torch_full</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>

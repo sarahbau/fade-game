@@ -74,6 +74,13 @@ update = 1;
         draw_set_blend_mode(bm_normal);
     }
     
+    with(obj_key)
+    {
+        draw_set_blend_mode(bm_src_color);
+        draw_sprite_ext(spr_light,0,x*other.surfScale,y*other.surfScale,keyLightSize*other.surfScale,keyLightSize*other.surfScale,0,c_white,keyLightStrength);
+        draw_set_blend_mode(bm_normal);
+    }
+    
     surface_reset_target();
     update = 1;
 }
