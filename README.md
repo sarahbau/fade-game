@@ -20,6 +20,7 @@ The goal of the game is to traverse the three levels of the maze and escape to t
 - Press `T` to toggle time on or off
 - Press `S` to toggle between normal walking speed and super fast walking speed
 - Press `E` to jump to the exit of the maze and to unlock the door
+- Press `K` to set the remaining torch light to five seconds
 - Press and hold `SPACE` to show the path towards the exit of the maze
 
 #### Resource Credits & Licenses
@@ -29,4 +30,4 @@ The goal of the game is to traverse the three levels of the maze and escape to t
 - "I see you" sound obtained from [Open Game Art](http://opengameart.org/content/i-see-you-voice) is in the public domain
 - "Forgotten Tomb" sound obtained from [Open Game Art](http://opengameart.org/content/forgoten-tomb-ambience) is in the public domain
 - "Foot walking step" sounds by Jute, obtained from [Open Game Art](http://opengameart.org/content/foot-walking-step-sounds-on-stone-water-snow-wood-and-dirt), released under [GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)
-- TODO
+- "Win" sound by LittleRobotSoundFactory, obtained from [Freesound.org](https://freesound.org/people/LittleRobotSoundFactory/sounds/270402), released under [Creative Commons - Attribution 3.0 Unported](http://creativecommons.org/licenses/by/3.0/)
