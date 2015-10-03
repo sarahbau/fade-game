@@ -127,7 +127,7 @@
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>room0</room>
+            <room>mazes</room>
           </argument>
         </arguments>
       </action>

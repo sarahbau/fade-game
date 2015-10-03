@@ -12,6 +12,7 @@
     <sound>sound\snd_footsteps_2</sound>
     <sound>sound\snd_footsteps_3</sound>
     <sound>sound\snd_footsteps_4</sound>
+    <sound>sound\snd_win</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Mazes">
@@ -46,6 +47,7 @@
       <sprite>sprites\spr_exit_uprsd</sprite>
       <sprite>sprites\spr_retry_prsd</sprite>
       <sprite>sprites\spr_retry_uprsd</sprite>
+      <sprite>sprites\spr_win</sprite>
     </sprites>
     <sprites name="UI">
       <sprite>sprites\spr_torch_empty</sprite>
@@ -80,11 +82,13 @@
     <object>objects\obj_start_btn</object>
     <object>objects\obj_retry_btn</object>
     <object>objects\obj_dead_zoey</object>
+    <object>objects\obj_win</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\main_menu</room>
-    <room>rooms\room0</room>
-    <room>rooms\room2</room>
+    <room>rooms\mazes</room>
+    <room>rooms\retry_screen</room>
+    <room>rooms\win_screen</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

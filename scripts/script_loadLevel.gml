@@ -1,6 +1,6 @@
 {
     randomize();
-    MAXLEVEL = 6;
+    MAXLEVEL = 7;
     if(level_id>MAXLEVEL){level_id=1;}
 //    show_message("Should load level [" + string(level_id) + "]");
     with(obj_entrance){instance_destroy()};
@@ -126,6 +126,11 @@
                 y=1*64;
                 sprite_index = spr_door_v;
             }
+            break;
+        case 7:
+            room_goto(win_screen);
+            audio_stop_all();
+            audio_play_sound(snd_win, 10, false);
             break;
         
     }
